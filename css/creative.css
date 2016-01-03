@@ -14,6 +14,12 @@ body {
     font-family: 'Open Sans Condensed',Arial,sans-serif;
 }
 
+.title {
+    font-family: 'Bitter',Arial,sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+}
+
 hr {
     max-width: 50px;
     border-color: #fff;
@@ -25,7 +31,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #b30000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +39,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #b30000;
 }
 
 h1,
@@ -42,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans Condensed','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -62,7 +68,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #dae0e6;
+    background-color: #333;
 }
 
 .text-faded {
@@ -354,7 +360,7 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color: #f2f2f2;
+    background-color: #b30000;
 }
 
 .btn-default:active,
@@ -407,7 +413,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #a31901;
 }
 
 .btn-primary:active,
